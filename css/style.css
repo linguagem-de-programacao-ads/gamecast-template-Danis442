@@ -145,6 +145,25 @@ nav {
 
 
 /* ADICIONAR EVENTO - Inserir CSS da página de adicionar*/
+.formularioAdd{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: var(--font-defaut);
+
+    form{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
 
     @Media(max-width: 700px){
         .cards {
